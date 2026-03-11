@@ -103,7 +103,7 @@ ROS2 · Gazebo · OpenCV · Python
 <div align="center">
 
 <img height="180em"
-src="https://github-readme-stats.vercel.app/api?username=SIMETRAL55&show_icons=true&count_private=true&theme=tokyonight"/>
+src="https://github-readme-stats.vercel.app/api?username=SIMETRAL55&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight"/>
 
 <img height="180em"
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=SIMETRAL55&layout=compact&theme=tokyonight"/>
