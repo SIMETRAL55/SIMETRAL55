@@ -90,9 +90,13 @@
   </picture>
 </p>
 
-<!-- Activity graph fallback -->
+<!-- Activity Graph -->
 <p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=SIMETRAL55&theme=react-dark" alt="contribution-graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=SIMETRAL55&theme=react-dark">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=SIMETRAL55&theme=github-light">
+  </picture>
 </p>
 
 ---
@@ -116,11 +120,3 @@
 - Email: artemis78686@gmail.com
 
 ---
-
-## 📌 How to reproduce this profile (quick)
-1. Create a **new repository** named exactly `SIMETRAL55` (so it becomes `SIMETRAL55/SIMETRAL55`).  
-2. Paste this `README.md` content and commit to `main`.  
-3. Add a `profile-banner.gif` file (recommended 1280×240) to repo root (or change the image filename in README).  
-4. (Optional) Add the workflows below under `.github/workflows/` to auto-generate the contribution snake and push to `output/`.  
-   - After a successful run the contribution snake will be available at:  
-     `https://raw.githubusercontent.com/SIMETRAL55/SIMETRAL55/output/github-contribution-grid-snake.svg`
