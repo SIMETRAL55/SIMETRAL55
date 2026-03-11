@@ -41,7 +41,19 @@ I enjoy building systems end-to-end: collecting and processing data, training or
 I’m particularly interested in how machine learning systems behave outside controlled environments — where latency, noise, and system constraints require thoughtful engineering beyond just model performance.
 
 ---
+## 🧠 Research & Engineering Interests
 
+I’m interested in building intelligent systems that combine machine learning models with reliable software infrastructure. Some of the areas I spend time exploring include:
+
+- **Retrieval-augmented generation (RAG)** and knowledge-grounded LLM systems  
+- **Efficient LLM inference** on local and edge hardware  
+- **Speech and multimodal AI systems**  
+- **Perception pipelines for robotics**  
+- **Real-time ML systems and streaming data pipelines**
+
+I enjoy experimenting with how models behave when integrated into larger systems where latency, data quality, and system design become as important as model accuracy.
+
+---
 ## 🛠️ Tech & Tools
 
 My work mainly revolves around building **ML-powered applications and data pipelines**.
@@ -108,7 +120,18 @@ The project focuses on building **perception pipelines for robotics**, where sen
 👉 https://github.com/SIMETRAL55/Gazebo-Motion-Capture
 
 ---
+## 🧪 Selected Experiments
 
+Some smaller experiments I work on while exploring ML systems:
+
+- Running **quantized LLMs locally** using llama.cpp to evaluate latency vs quality tradeoffs  
+- Testing **embedding models for semantic search** across meeting transcripts  
+- Experimenting with **multi-camera triangulation algorithms** for robotics perception  
+- Exploring **vector database indexing strategies** for faster RAG retrieval
+
+These experiments often evolve into larger projects once the ideas prove useful.
+
+---
 ## 📊 GitHub stats & activity
 
 <div align="center">
