@@ -11,7 +11,7 @@
 
 # Hi 👋 I'm Wasim Shaikh
 
-**AI/Machine Learning Engineer | LLM Systems**
+**AI / Machine Learning Engineer | LLM Systems**
 
 <img
 src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=2b9348&center=true&vCenter=true&width=700&lines=Machine+Learning+Engineer;Building+LLM+Systems+and+RAG+Pipelines;Robotics+Perception+%7C+AI+Infrastructure"
