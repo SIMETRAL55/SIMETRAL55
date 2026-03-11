@@ -11,10 +11,10 @@
 
 # Hi 👋 I'm Wasim Shaikh
 
-**AI / Machine Learning Engineer building intelligent systems and real-time ML pipelines**
+**AI/Machine Learning Engineer | LLM Systems**
 
 <img
-src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=2b9348&center=true&vCenter=true&width=700&lines=AI+%7C+Machine+Learning+Engineer;Building+LLM+Systems+and+ML+Pipelines;Robotics+Perception+and+Intelligent+Systems"
+src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=2b9348&center=true&vCenter=true&width=700&lines=Machine+Learning+Engineer;Building+LLM+Systems+and+RAG+Pipelines;Robotics+Perception+%7C+AI+Infrastructure"
 />
 
 <br>
@@ -31,108 +31,72 @@ src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=350
 
 </div>
 
+---
 
-## 🔭 About me
+## 👨‍💻 About
 
-I am an AI and Machine Learning engineer focused on building practical intelligent systems that combine machine learning models with real-world software infrastructure. My work sits at the intersection of **machine learning, real-time systems, and robotics**, where I design pipelines that move from raw data to actionable insights.  
+Machine Learning Engineer focused on building **AI systems that move from raw data to production applications**.  
 
-I enjoy building systems end-to-end: collecting and processing data, training or integrating models, and deploying them into applications that people can actually use. Much of my recent work explores **LLM-powered applications, retrieval-augmented generation systems, and perception pipelines for robotics simulation**.  
+My work centers around **LLM-powered applications, retrieval systems, and perception pipelines**, combining machine learning models with reliable backend infrastructure.  
 
-I’m particularly interested in how machine learning systems behave outside controlled environments — where latency, noise, and system constraints require thoughtful engineering beyond just model performance.
+Currently exploring **real-time AI assistants, RAG pipelines, and robotics perception systems**.
 
 ---
-## 🧠 Research & Engineering Interests
 
-I’m interested in building intelligent systems that combine machine learning models with reliable software infrastructure. Some of the areas I spend time exploring include:
-
-- **Retrieval-augmented generation (RAG)** and knowledge-grounded LLM systems  
-- **Efficient LLM inference** on local and edge hardware  
-- **Speech and multimodal AI systems**  
-- **Perception pipelines for robotics**  
-- **Real-time ML systems and streaming data pipelines**
-
-I enjoy experimenting with how models behave when integrated into larger systems where latency, data quality, and system design become as important as model accuracy.
-
----
-## 🛠️ Tech & Tools
-
-My work mainly revolves around building **ML-powered applications and data pipelines**.
+## 🛠 Tech Stack
 
 **Languages**  
-Python · C/C++ · Shell · SQL  
+Python · C/C++ · SQL · Shell  
 
-**Machine Learning & AI**  
-PyTorch · Hugging Face · Transformers · Whisper · Pyannote · Sentence Transformers · Llama-cpp  
+**ML / AI**  
+PyTorch · Transformers · Whisper · Pyannote · Sentence Transformers  
 
-**Retrieval & LLM Systems**  
-LangChain · ChromaDB · Vector Embeddings · RAG Architectures  
+**LLM Systems**  
+LangChain · ChromaDB · Vector Search · RAG  
 
-**Robotics & Simulation**  
-ROS2 · Gazebo · RViz · OpenCV · Sensor Data Processing  
+**Robotics / Vision**  
+ROS2 · Gazebo · OpenCV  
 
-**Backend & Infrastructure**  
-FastAPI · NiceGUI · Docker · SQLAlchemy · Uvicorn  
+**Infrastructure**  
+FastAPI · Docker · SQLAlchemy · NiceGUI  
 
 ---
 
-## ⭐ Featured projects
+## 🚀 Selected Projects
 
-### MeetBot — AI meeting intelligence system
+### MeetBot — AI meeting assistant
+Speech → knowledge pipeline that converts meetings into searchable information.
 
-**Repo:** `SIMETRAL55/MeetBot`  
-
-MeetBot is an AI system designed to transform meeting recordings into searchable and structured knowledge. The project explores how speech recognition, speaker diarization, and vector retrieval can be combined to build an intelligent meeting assistant.
-
-The pipeline processes raw audio using **Whisper for transcription** and **Pyannote for speaker diarization**, generating structured conversation segments. These segments are embedded using **sentence-transformers** and indexed in a **Chroma vector database**, allowing semantic retrieval over past meetings.  
-
-On top of this retrieval layer, the system integrates LLMs to generate contextual answers and summaries from meeting history. The application includes a web interface built with NiceGUI and is containerized using Docker for reproducible deployment.
-
-**Key ideas explored**
-
-- speech-to-text pipelines
+**Features**
+- speech transcription (Whisper)
 - speaker diarization
-- vector search over conversational data
-- retrieval-augmented generation
-- local LLM inference
+- semantic search over conversations
+- retrieval-augmented QA with LLMs
+
+**Stack**  
+Whisper · Pyannote · Sentence Transformers · ChromaDB · LangChain · Docker  
 
 👉 https://github.com/SIMETRAL55/MeetBot
 
 ---
 
-### Gazebo Motion Capture — multi-view thermal localization in simulation
+### Gazebo Motion Capture — multi-camera perception simulation
+ROS2 + Gazebo project exploring **multi-view thermal camera triangulation** for 3D localization.
 
-**Repo:** `SIMETRAL55/Gazebo-Motion-Capture`
+**Features**
+- simulated thermal camera network
+- multi-view triangulation
+- ROS2 perception pipeline
+- RViz visualization
 
-This project explores how multi-camera perception systems can be prototyped inside simulation before deploying them to real robotics environments. Using Gazebo and ROS2, I simulate a network of thermal cameras observing a target and reconstruct its 3D position using geometric triangulation.
-
-Each camera publishes observations into ROS2 topics, where a Python node processes the data using OpenCV and converts detected pixels into spatial rays. By synchronizing multiple camera streams and applying least-squares triangulation, the system estimates the 3D position of the target in the simulation world.
-
-The project focuses on building **perception pipelines for robotics**, where sensor data must be synchronized, transformed between coordinate frames, and fused to produce reliable spatial estimates.
-
-**Key ideas explored**
-
-- multi-view geometry
-- sensor fusion
-- perception pipelines
-- robotics simulation
-- ROS2 system architecture
+**Stack**  
+ROS2 · Gazebo · OpenCV · Python  
 
 👉 https://github.com/SIMETRAL55/Gazebo-Motion-Capture
 
 ---
-## 🧪 Selected Experiments
 
-Some smaller experiments I work on while exploring ML systems:
-
-- Running **quantized LLMs locally** using llama.cpp to evaluate latency vs quality tradeoffs  
-- Testing **embedding models for semantic search** across meeting transcripts  
-- Experimenting with **multi-camera triangulation algorithms** for robotics perception  
-- Exploring **vector database indexing strategies** for faster RAG retrieval
-
-These experiments often evolve into larger projects once the ideas prove useful.
-
----
-## 📊 GitHub stats & activity
+## 📊 GitHub Activity
 
 <div align="center">
 
@@ -166,18 +130,7 @@ src="https://github-readme-activity-graph.vercel.app/graph?username=SIMETRAL55&t
 
 ---
 
-## 🔬 Current work & interests
-
-- building **real-time AI assistants powered by speech and LLMs**
-- exploring **efficient local LLM inference and model quantization**
-- studying **distributed ML systems and scalable inference pipelines**
-- experimenting with **perception systems for robotics simulation**
-
----
-
 ## 📫 Connect
 
-- LinkedIn: https://jp.linkedin.com/in/wasim-shaikh-5661b2211  
-- Email: artemis78686@gmail.com
-
----
+LinkedIn → https://jp.linkedin.com/in/wasim-shaikh-5661b2211  
+Email → artemis78686@gmail.com
