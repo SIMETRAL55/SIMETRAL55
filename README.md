@@ -1,8 +1,3 @@
-<!-- README.md for profile: SIMETRAL55 -->
-<!-- Fun / animated developer profile for Wasim Shaikh -->
-<!-- Tagline: "Surviving in the sea of agents" -->
-<!-- Designed: centered taglines, stats, contribution snake, visitor badge, banner -->
-
 <div align="center">
 
 <img src="profile-banner.gif"
@@ -12,21 +7,21 @@
 
 </div>
 
-<div align="center">
+<!-- <div align="center"> -->
 
 # Hi 👋 I'm Wasim Shaikh
 
 **Surviving in the sea of agents • AI / Robotics Engineer**
 
 <!-- Centered typing animation (readme-typing-svg) -->
-<p align="center">
+<!-- <p align="center"> -->
 
 <img
 src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=2b9348&center=true&vCenter=true&width=700&lines=Surviving+in+the+sea+of+agents;AI+Engineer+%7C+Robotics+%7C+Systems;Building+real-time+LLM+infrastructure"
 />
 
-</p>
-
+<!-- </p> -->
+<br>
 <!-- Badges / Visitor counter -->
 <p align="center">
 
@@ -40,8 +35,8 @@ src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=350
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=SIMETRAL55.SIMETRAL55">
 
-</p>
-
+<!-- </p> -->
+</div>
 ---
 
 ## 🔭 About me
