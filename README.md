@@ -80,17 +80,19 @@ Whisper · Pyannote · Sentence Transformers · ChromaDB · LangChain · Docker
 
 ---
 
-### Gazebo Motion Capture — multi-camera perception simulation
-ROS2 + Gazebo project exploring **multi-view thermal camera triangulation** for 3D localization.
+### Gazebo Motion Capture — perception simulation
+
+Simulation environment for experimenting with **multi-view perception and spatial inference** using thermal cameras.  
+The system reconstructs a target’s 3D position from multiple camera observations, mimicking a motion-capture setup used in robotics and intelligent sensing systems.
 
 **Features**
-- simulated thermal camera network
-- multi-view triangulation
-- ROS2 perception pipeline
-- RViz visualization
+- multi-camera image processing pipeline
+- 3D localization via geometric triangulation
+- sensor data fusion from multiple viewpoints
+- real-time visualization in RViz
 
 **Stack**  
-ROS2 · Gazebo · OpenCV · Python  
+ROS2 · Gazebo · OpenCV · Python
 
 👉 https://github.com/SIMETRAL55/Gazebo-Motion-Capture
 
