@@ -130,9 +130,3 @@ src="https://github-readme-activity-graph.vercel.app/graph?username=SIMETRAL55&t
 
 </p>
 
----
-
-## 📫 Connect
-
-LinkedIn → https://jp.linkedin.com/in/wasim-shaikh-5661b2211  
-Email → artemis78686@gmail.com
