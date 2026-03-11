@@ -1,36 +1,29 @@
-# .github/workflows/generate-snake.yml
 name: Generate Contribution Snake
 
 on:
-  workflow_dispatch:
   schedule:
-    # run at 01:00 UTC every day (adjust if desired)
-    - cron: '0 1 * * *'
+    - cron: "0 1 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
-  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Generate github-contribution-grid-snake.svg (svg-only)
-        uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: SIMETRAL55
           outputs: |
-            dist/github-contribution-grid-snake.svg
-        # environment not strictly required; GITHUB_TOKEN available automatically
+            output/github-contribution-grid-snake.svg
 
-      - name: Commit and push output to branch 'output'
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
-          commit_message: "chore: update contribution snake"
-          file_pattern: "dist/**"
-          branch: output
+          target_branch: output
+          build_dir: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
