@@ -80,7 +80,7 @@ Whisper · Pyannote · Sentence Transformers · ChromaDB · LangChain · Docker
 
 ---
 
-### Gazebo Motion Capture — perception simulation
+### Gazebo Motion Capture — Perception Simulation
 
 Simulation environment for experimenting with **multi-view perception and spatial inference** using thermal cameras.  
 The system reconstructs a target’s 3D position from multiple camera observations, mimicking a motion-capture setup used in robotics and intelligent sensing systems.
